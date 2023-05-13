@@ -1,0 +1,14 @@
+.formInputs-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    label {
+        color: var(--color-primary)
+    }
+
+    input {
+        padding: 15px;
+        margin: 10px;
+    }
+}
