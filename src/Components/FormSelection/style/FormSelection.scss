@@ -4,12 +4,20 @@
     align-items: center;
 
     label {
+        font-family: 'Manrope';
         color: var(--color-primary)
     }
 
     select {
-        padding: 15px;
-        margin: 10px;
-        min-width: 173px;
+        font-family: 'Manrope';
+        color: var(--color-primary);
+        padding: 15px 0 15px 0;
+        margin: 10px 0 10px 0;
+        min-width: 175px;
+        background-color: var(--color-background);
+        border-radius: 10px;
+        border: none;
+        text-align: center;
+        backdrop-filter: blur(15px);
     }
 }

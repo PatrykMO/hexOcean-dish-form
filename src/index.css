@@ -6,8 +6,6 @@
 }
 
 :root {
-  --color-background: #0C1829;
-  --color-box: #13243C;
-  --color-primary: #ffffff;
-  --color-secondary: #9293B9;
+  --color-background: rgba(255, 255, 255, 0.45);
+  --color-primary: #000000ad;
 }

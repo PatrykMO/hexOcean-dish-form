@@ -4,6 +4,5 @@
     align-items: center;
     width: 100vw;
     height: 100vh;
-
-    background-color: var(--color-background);
+    background: url(https://source.unsplash.com/E8Ufcyxz514/2400x1823) center / cover no-repeat fixed;
 }

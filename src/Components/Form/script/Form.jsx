@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { motion } from "framer-motion";
 import '../style/Form.scss';
 import FormInputs from '../../FormInputs/script/FormInputs';
 import FormSelection from '../../FormSelection/script/FormSelection';
@@ -59,7 +60,11 @@ const Form = () => {
   };
 
   return (
-    <div className='form-container'>
+    <motion.div
+      className='form-container'
+      initial={{x: -2000, scale: 1.25}}
+      animate={{x: 0, scale: 1}}
+    >
       <form onSubmit={handleSubmit}>
         {errors.length > 0 &&
           (<ul className='error-messages'>
@@ -139,7 +144,7 @@ const Form = () => {
         }
         <button type='submit'>Submit</button>
       </form>
-    </div>
+    </motion.div>
   )
 }
 
