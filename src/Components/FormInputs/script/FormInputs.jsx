@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion } from "framer-motion";
 
 import '../style/FormInputs.scss';
 
@@ -6,7 +7,10 @@ const FormInputs = (props) => {
     const { placeholder, type, name, value, onChange } = props;
 
     return (
-        <div className='formInputs-container'>
+        <motion.div
+            className='formInputs-container'
+            whileHover={{scale: 1.05}}
+        >
             <label>{(type === 'range' && value.length > 0) ? value : placeholder}</label>
             <input
                 placeholder={placeholder}
@@ -19,7 +23,7 @@ const FormInputs = (props) => {
                 max={type === 'range' ? 10 : undefined}
                 required
             />
-        </div>
+        </motion.div>
     )
 }
 

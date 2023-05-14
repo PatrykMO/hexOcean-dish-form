@@ -19,6 +19,7 @@
         border: none;
         text-align: center;
         backdrop-filter: blur(15px);
+        cursor: pointer;
     }
 
     input[type="time"]::-webkit-calendar-picker-indicator {
