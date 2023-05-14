@@ -8,7 +8,7 @@ Requirements
 -------
 
 Create a form that will contain the following fields:
-  - name - dish name (text field(
+  - name - dish name (text field)
   - preparation_time - preparation time (duration field, would be nice if the input will be formatted like 00:00:00)
   - type - dish type (select field with the following options: pizza, soup, sandwich)
   - after selecting dish type, conditionally display other fields:
